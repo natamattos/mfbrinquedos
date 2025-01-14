@@ -1,0 +1,53 @@
+{
+    "name": "mfbrinquedos",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "https://natamattos.github.io/mfbrinquedos",
+    "description": "Loja virtual de brinquedos desenvolvida com React, HTML5, CSS3 e SQLite3.",
+    "main": "src/index.jsx",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.0"
+    },
+    "devDependencies": {
+      "gh-pages": "^5.0.0"
+    },
+    "proxy": "http://localhost:3001",
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "keywords": [
+      "React",
+      "Loja Virtual",
+      "Brinquedos",
+      "MFBrinquedos"
+    ],
+    "author": "Natã De Mattos",
+    "license": "MIT"
+  }
+  
